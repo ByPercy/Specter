@@ -128,10 +128,20 @@ aside {
 
 footer{
     background-color: #444;
-    color: white;
-    padding: 15px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
     position: relative;
+    margin-top: -65px;
+    width: auto;
+    height: 80px;
+}
+.Redes{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.Redes a{
+    color:black;
+    margin-top: 12px;
+}
+.Redes a:hover{
+    scale: 1.1;
 }
