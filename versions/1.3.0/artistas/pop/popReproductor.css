@@ -1,0 +1,116 @@
+/**********/
+/*general*/
+/********/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: Arial;
+}
+
+/**************************/
+/*ENCABEZADO DE LA PAGINA*/
+/************************/
+
+header {    
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;  
+
+}
+.logo{
+    margin-left: 1%;
+    background-color: #888;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border: solid black;
+}
+.logo img{
+    width: 75px;
+}
+.Principal{/*POSICIONAMIENTO DEL PRINCIPAL*/
+    height: 30px;
+    font-size: 20px;
+    margin-left: 7px;
+}
+nav a{/*LE DA EL COLOR A LAS LETRAS DEL LINK PRINCIPAL*/
+    color: white;
+    font-weight: bold;
+}
+
+nav :hover{
+    color: black;
+    padding: 2px;
+    background-color: white;
+}
+
+/***********************/
+/*CONTENIDO DEL CUERPO*/
+/*********************/
+
+body {
+    background-image: url(../../imagen/pop/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    margin: 10%;
+    display: flex;
+}
+
+
+#lista{
+    background-color: #444;
+    width: 462px;
+    height: 28.7em;
+    right: 50px;
+    padding: 2px;
+    list-style: none;
+    overflow-x:none;
+    overflow: auto;
+}
+#lista img{
+    width: 60px;
+    margin-left: -1px;
+    display: inline;
+}
+.Video{
+    background-color: #fcfcfc;
+    border-radius: 6px;
+    width: 25.6em;
+    padding: 12px;
+    margin: 13px;
+    margin-left: 14px;
+}
+.Video:hover{
+    color: #fcfcfc;
+    background-color: #292727;
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+#lista h1{
+    font-size: 22px;
+    display: inline;
+    position: relative;
+    top:-20px;
+    margin: 10px;
+
+}
+
+
+/*******************/
+/*PIE DE LA PAGINA*/
+/*****************/
+
+footer{
+    background-color: #444;
+    width: auto;
+    height: 80px;
+}
