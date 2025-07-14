@@ -1,0 +1,99 @@
+*{/*aplicar estilo general a toda la pagina*/
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: Arial;
+}
+header {    
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;  
+
+}
+.logo{
+    margin-left: 1%;
+    background-color: #888;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border: solid black;
+}
+.logo img{
+    width: 75px;
+}
+
+nav a{/*LE DA EL COLOR A LAS LETRAS DEL LINK PRINCIPAL*/
+    color: white;
+    font-weight: bold;
+}
+
+nav :hover{
+    color: black;
+    padding: 2px;
+    background-color: white;
+}
+
+.Principal{/*POSICIONAMIENTO DEL PRINCIPAL*/
+    height: 30px;
+    font-size: 20px;
+    margin-left: 7px;
+}
+main{
+    background-color: white;
+}
+
+.cuadrados1{/*posicionamiento de cuadros superiores*/
+    display:flex;/*encargado de poner los recuadros de manera horizontal*/
+    gap: 50px;
+    justify-content: center;
+    top: 60px;
+    padding: 70px;
+}
+
+.cuadrados2{/*posicionamiento de cuadros inferiores*/
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -80px;
+    gap: 50px;
+    padding: 70px;
+
+}
+
+.cuadro{/*estilo de los cuadros*/
+    width: 900px;
+    height: 280px;
+    background-color: rgb(220, 213, 213);
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 20px #888;
+}
+.cuadro img{
+    width: 13em;
+
+}
+#botonplay{/*boton que esta debajo de la imagen ->simbolo de play*/
+    width: 40px;
+    margin-left: 127px;
+    margin-top: 5px;
+    display:flex;
+}
+#botonplay:hover{/*cambia dinamicamente cuando el usuario pasa en raton sobre el*/
+    background-color: #848181;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: #444;
+    position: relative;
+    margin-top: -65px;
+    width: auto;
+    height: 80px;
+}
