@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #000;
+    border-bottom: 1px solid #282828;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.barra a {
+    margin-left: 30px;
+    color: #b3b3b3;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.barra a:hover {
+    color: #1db954;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+
+.filtros {
+    height: max-content;
+    width: 220px;
+    background-color: #1b1b1b;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filtros h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #f0f0f0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.filtro-boton {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #181818;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.filtro-boton:hover {
+    background-color: #282828;
+    transform: scale(1.05);
+}
+
+#rock {
+    border-left: 6px solid red;
+    border-right: 6px solid red;
+}
+
+#rap {
+    border-left: 6px solid #1E90FF;
+    border-right: 6px solid #1E90FF;
+}
+
+#pop {
+    border-left: 6px solid violet;
+    border-right: 6px solid violet;
+}
+#variado{
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.artistas {
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.artistas h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.lista a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    max-width: fit-content;
+}
+
+.lista figure {
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.lista figure:hover {
+    transform: scale(1.06);
+    background-color: #1E90FF;
+}
+
+.lista figure:hover figcaption {
+    color: white;
+}
+
+.lista img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    background-color: #333;
+}
+
+.lista figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.songs {
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.songs h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.songs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.songs li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.songs li:last-child {
+    border-bottom: none;
+}
+
+.songs img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
