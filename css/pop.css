@@ -7,6 +7,11 @@
 body {
     font-family: Arial;
 }
+
+/**************************/
+/*ENCABEZADO DE LA PAGINA*/
+/************************/
+
 header {    
     background-color: #444;
     color: white;
@@ -44,6 +49,11 @@ nav :hover{
     font-size: 20px;
     margin-left: 7px;
 }
+
+/***********************/
+/*CONTENIDO DEL CUERPO*/
+/*********************/
+
 main{
     background-color: white;
 }
@@ -75,20 +85,36 @@ main{
     text-align: center;
     box-shadow: 10px 20px #888;
 }
-.cuadro img{
-    width: 13em;
+.imagen{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* recorta la imagen si es necesario */
 
 }
 #botonplay{/*boton que esta debajo de la imagen ->simbolo de play*/
-    width: 40px;
-    margin-left: 127px;
-    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: -3.9%;
     display:flex;
 }
 #botonplay:hover{/*cambia dinamicamente cuando el usuario pasa en raton sobre el*/
     background-color: #848181;
     border-radius: 30px;
+    transform: scale(1.1);
 }
+.nombre {
+    margin: 5px;
+    padding: 2px;
+    margin-top: -3px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}  
+
+/*******************/
+/*PIE DE LA PAGINA*/
+/*****************/
 
 footer{
     background-color: #444;
@@ -96,4 +122,16 @@ footer{
     margin-top: -65px;
     width: auto;
     height: 80px;
+}
+.Redes{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.Redes a{
+    color:black;
+    margin-top: 12px;
+}
+.Redes a:hover{
+    scale: 1.1;
 }
